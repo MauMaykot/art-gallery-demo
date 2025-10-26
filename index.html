@@ -10,17 +10,30 @@
 </head>
 
 <body>
-  <section class="revealer">
-    <div class="img-mask"><img src="images/art_1.jpg" /></div>
-    <div class="img-mask"><img src="images/art_2.jpg" /></div>
-    <div class="img-mask"><img src="images/art_3.jpg" /></div>
+  <div id="smooth-content">
+    <section class="revealer">
+      <div class="img-mask">
+        <div class="caption">Title 1</div>
+        <img src="images/art_1.jpg" />
+      </div>
+      <div class="img-mask">
+        <div class="caption">Title 2</div>
+        <img src="images/art_2.jpg" />
+      </div>
+      <div class="img-mask">
+        <div class="caption">Title 3</div>
+        <img src="images/art_3.jpg" />
+      </div>
 
-    <div class="overlay">Demo Art Gallery</div>
-  </section>
+      <div class="overlay">Demo Art Gallery</div>
+    </section>
+  </div>
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<script src="js/gsap/gsap.min.js"></script>
+<script src="js/gsap/ScrollTrigger.min.js"></script>
+<script src="js/gsap/ScrollSmoother.min.js"></script>
+<script src="js/gsap/CustomEase.min.js"></script>
 <script src="js/index.js"></script>
 
 </html>
